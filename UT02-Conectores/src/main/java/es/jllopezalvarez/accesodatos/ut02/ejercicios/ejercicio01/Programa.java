@@ -51,22 +51,37 @@ public class Programa {
 
     private static void mostrarCabeceraResultset(ResultSetMetaData metaData) throws SQLException {
         int columnCount = metaData.getColumnCount();
+        int totalWidth  = 0;
         for (int i = 1; i <= columnCount; i++) {
-            System.out.printf("%s ", metaData.getColumnName(i));
+            int columnWidth = metaData.getColumnDisplaySize(i);
+//            if (metaData.getColumnType(i) == Types.BIGINT || ...);
+
+
+            totalWidth += columnWidth+1;
+//            String format = "%" + columnWidth + "." + columnWidth + "s|";
+            String format = String.format("%%%d.%ds|", columnWidth, columnWidth);
+            System.out.printf(format, metaData.getTableName(i) + "." + metaData.getColumnName(i));
         }
         System.out.println();
+        System.out.println("-".repeat(totalWidth));
 
     }
 
     private static void mostrarCuerpoResultset(ResultSet resultSet, ResultSetMetaData metaData) throws SQLException {
 
         int columnCount = metaData.getColumnCount();
-        while (resultSet.next()){
+        while (resultSet.next()) {
+            int totalWidth  = 0;
             for (int i = 1; i <= columnCount; i++) {
-                System.out.printf("%s ", resultSet.getString(i));
+                int columnWidth = metaData.getColumnDisplaySize(i);
+                totalWidth += columnWidth+1;
+                String format = "%" + columnWidth + "." + columnWidth + "s|";
+
+                System.out.printf(format, resultSet.getString(i));
 
             }
             System.out.println();
+            System.out.println("-".repeat(totalWidth));
 
         }
         System.out.println();
