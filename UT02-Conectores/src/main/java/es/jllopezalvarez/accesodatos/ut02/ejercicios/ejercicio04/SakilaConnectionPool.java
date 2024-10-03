@@ -7,6 +7,11 @@ import lombok.Getter;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+/**
+ * Pool de conexiones para la BD Sakila
+ * Se conecta con una cadena de conexión, usuario y
+ * contraseñas establecidos en constantes dentro de la clase
+ */
 public class SakilaConnectionPool {
 
     @Getter
@@ -29,6 +34,11 @@ public class SakilaConnectionPool {
     }
 
 
+    /**
+     * Permite obtener una conexión a la BD
+     * @return la conexión a la base de datos.
+     * @throws SQLException
+     */
     public Connection getConnection() throws SQLException {
         return dataSource.getConnection();
     }
