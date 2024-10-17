@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cb2e84b-7a19-43fe-89c3-9656be9e7c9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/solid/principio04isp/correcto/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/optional/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/optional/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/dataaccess/ProductDataAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/dataaccess/ProductDataAccessImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/dataaccess/ProductDataAccessImplRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/dataaccess/ProductDataAccessImplXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/services/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/singleton/ejemplo/ListaSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/singleton/ejemplo/Programa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -37,6 +49,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Program.executor": "Run",
+    "Application.Programa.executor": "Run",
+    "Application.es.jllopezalvarez.accesodatos.extras.optional.Programa.executor": "Run",
+    "Application.es.jllopezalvarez.accesodatos.extras.singleton.ejemplo.Programa.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -56,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="es.jllopezalvarez.accesodatos.prueba.entities" />
       <recent name="es.jllopezalvarez.accesodatos.extras.solid.principio02ocp.correcto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -71,6 +88,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/solid/principio01srp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="es.jllopezalvarez.accesodatos.extras.prueba.dataaccess" />
       <recent name="es.jllopezalvarez.accesodatos.extras.solid.principio05dip.incorrecto" />
       <recent name="es.jllopezalvarez.accesodatos.extras.solid.principio03lsp.correcto" />
       <recent name="es.jllopezalvarez.accesodatos.extras.solid.principio01srp.correcto" />
@@ -121,7 +139,9 @@
       <workItem from="1727789044591" duration="703000" />
       <workItem from="1727793098260" duration="267000" />
       <workItem from="1727793374019" duration="1367000" />
-      <workItem from="1728393716311" duration="3200000" />
+      <workItem from="1728393716311" duration="3827000" />
+      <workItem from="1728567479464" duration="4096000" />
+      <workItem from="1729001041698" duration="2703000" />
     </task>
     <servers />
   </component>
