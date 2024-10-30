@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<clientes>
+    <cliente id="" email="">
+        <nombre></nombre>
+        <apelidos></apelidos>
+        <alquileres>
+            <alquiler>
+                <fecha-alquiler></fecha-alquiler>
+                <fecha-devolucion></fecha-devolucion>
+                <titulo></titulo>
+            </alquiler>
+            <alquiler>
+                <fecha-alquiler></fecha-alquiler>
+                <fecha-devolucion></fecha-devolucion>
+                <titulo></titulo>
+            </alquiler>
+        </alquileres>
+    </cliente>
+    <cliente id="" email="">
+        <nombre></nombre>
+        <apelidos></apelidos>
+        <alquileres>
+            <alquiler>
+                <fecha-alquiler></fecha-alquiler>
+                <fecha-devolucion></fecha-devolucion>
+                <titulo></titulo>
+            </alquiler>
+            <alquiler>
+                <fecha-alquiler></fecha-alquiler>
+                <fecha-devolucion></fecha-devolucion>
+                <titulo></titulo>
+            </alquiler>
+        </alquileres>
+    </cliente>
+</clientes>

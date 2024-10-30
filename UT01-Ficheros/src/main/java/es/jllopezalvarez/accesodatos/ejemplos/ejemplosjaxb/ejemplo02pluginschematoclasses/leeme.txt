@@ -1,0 +1,10 @@
+La configuración del plugin de Maven para generar clases a partir de un XSD se hace en el fichero POM.XML
+En este proyecto tenemos un fichero XSD "userClasses" en src/resources.
+En el fichero se definen dos clases:
+- UserRequest
+- UserResponse
+En el fichero pom.xml se configura el plugin en el nodo "<build><plugins>", para que se generen las clases al compilar el proyecto.
+La configuración tiene más opciones, pero sólo estamos usando algunas, como por ejemplo, indicar el paquete en el que se tienen que generar las clases.
+Esto no funciona (estoy investigándolo) con la compilación desde IntelliJ.
+Para generar las clases hay que ejecutar en la consola "mvn compile"
+Las clases generadas, por defecto, están en target/generated-sources

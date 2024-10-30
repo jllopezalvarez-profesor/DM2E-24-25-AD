@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>es.jllopezalvarez.accesodatos</groupId>
+    <artifactId>ut01ficheros</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>net.datafaker</groupId>
+            <artifactId>datafaker</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxb2-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>xjc</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>src/main/resources/userClasses.xsd</source>
+                            </sources>
+                            <packageName>es.jllopezalvarez.accesodatos.ejemplosjaxb.ejemplo02pluginschematoclasses
+                            </packageName>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>schemagen</id>
+                        <goals>
+                            <goal>schemagen</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>
+                                    src/main/java/es/jllopezalvarez/accesodatos/ejemplos/ejemplosjaxb/ejemplo01marshalunmarshal/Person.java
+                                </source>
+                                <source>
+                                    src/main/java/es/jllopezalvarez/accesodatos/ejemplos/ejemplosjaxb/ejemplo01marshalunmarshal/People.java
+                                </source>
+                            </sources>
+                            <transformSchemas>
+                                <transformSchema>
+                                    <uri>/jaxb/gen</uri>
+                                    <toPrefix>user</toPrefix>
+                                    <toFile>user-gen.xsd</toFile>
+                                </transformSchema>
+                            </transformSchemas>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

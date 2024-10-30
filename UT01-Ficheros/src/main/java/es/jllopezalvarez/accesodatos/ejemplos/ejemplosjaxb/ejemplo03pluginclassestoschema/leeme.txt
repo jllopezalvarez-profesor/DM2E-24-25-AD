@@ -1,0 +1,7 @@
+La configuración del plugin de Maven para generar esquemas XSD a partir de las clases se hace en el fichero POM.XML
+En este proyecto tenemos dos clases "Person" y "People" en es/jllopezalvarez/accesodatos/ejemplosjaxb/ejemplo01marshalunmarshal
+En el fichero pom.xml se configura el plugin en el nodo "<build><plugins>", para que se genere el XSD a partir de las clases.
+La configuración tiene más opciones, pero sólo estamos usando algunas, como por ejemplo, indicar las clases que queremos que se incluyan en el XSD.
+Esto no funciona (estoy investigándolo) con la compilación desde IntelliJ.
+Para generar el XSD hay que ejecutar en la consola "mvn compile"
+El XSD generado está, por defecto, en target/generated-resources
