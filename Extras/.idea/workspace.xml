@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cb2e84b-7a19-43fe-89c3-9656be9e7c9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/optional/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/optional/Programa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/dataaccess/ProductDataAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/dataaccess/ProductDataAccessImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/dataaccess/ProductDataAccessImplRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/dataaccess/ProductDataAccessImplXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/prueba/services/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/singleton/ejemplo/ListaSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/jllopezalvarez/accesodatos/extras/singleton/ejemplo/Programa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +45,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jllopezalvarez/repos/24-25/DM2E-24-25-AD/Extras",
+    "last_opened_file_path": "/home/jllopezalvarez/repos/23-24/DM2E-23-24-AD/ejemplos/ejemplos-jaxb",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -141,7 +127,8 @@
       <workItem from="1727793374019" duration="1367000" />
       <workItem from="1728393716311" duration="3827000" />
       <workItem from="1728567479464" duration="4096000" />
-      <workItem from="1729001041698" duration="2703000" />
+      <workItem from="1729001041698" duration="3307000" />
+      <workItem from="1730294575727" duration="19000" />
     </task>
     <servers />
   </component>
