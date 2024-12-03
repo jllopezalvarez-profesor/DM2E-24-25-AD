@@ -1,0 +1,1512 @@
+<?xml version="1.0" ?>
+<weather-data>
+  <city id="c001" name="madrid">
+    <station id="s001" name="madrid-centro">
+      <location>
+        <latitude>40.4168</latitude>
+        <longitude>-3.7038</longitude>
+        <altitude>667</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+    <station id="s002" name="madrid-aeropuerto">
+      <location>
+        <latitude>40.4719</latitude>
+        <longitude>-3.5626</longitude>
+        <altitude>609</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+    <station id="s003" name="madrid-sur">
+      <location>
+        <latitude>40.3456</latitude>
+        <longitude>-3.7457</longitude>
+        <altitude>650</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+  </city>
+  <city id="c002" name="barcelona">
+    <station id="s004" name="barcelona-centro">
+      <location>
+        <latitude>41.3851</latitude>
+        <longitude>2.1734</longitude>
+        <altitude>12</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+    <station id="s005" name="barcelona-aeropuerto">
+      <location>
+        <latitude>41.2974</latitude>
+        <longitude>2.0833</longitude>
+        <altitude>4</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+    <station id="s006" name="barcelona-norte">
+      <location>
+        <latitude>41.4548</latitude>
+        <longitude>2.1813</longitude>
+        <altitude>50</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+  </city>
+  <city id="c003" name="valencia">
+    <station id="s007" name="valencia-centro">
+      <location>
+        <latitude>39.4699</latitude>
+        <longitude>-0.3763</longitude>
+        <altitude>15</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+    <station id="s008" name="valencia-puerto">
+      <location>
+        <latitude>39.4581</latitude>
+        <longitude>-0.3183</longitude>
+        <altitude>5</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+    <station id="s009" name="valencia-sur">
+      <location>
+        <latitude>39.3655</latitude>
+        <longitude>-0.4212</longitude>
+        <altitude>30</altitude>
+      </location>
+      <measurements date="2024-10-25">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-26">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-27">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-28">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+      <measurements date="2024-10-29">
+        <period time="morning">
+          <temperature max="18" min="12" feels_like="15"/>
+          <humidity>80</humidity>
+          <wind speed="10" direction="nw"/>
+          <pressure>1015</pressure>
+          <precipitation amount="0" probability="10"/>
+          <uv-index>3</uv-index>
+          <visibility>10</visibility>
+          <description>cloudy</description>
+        </period>
+        <period time="afternoon">
+          <temperature max="22" min="15" feels_like="20"/>
+          <humidity>60</humidity>
+          <wind speed="15" direction="w"/>
+          <pressure>1013</pressure>
+          <precipitation amount="0" probability="5"/>
+          <uv-index>6</uv-index>
+          <visibility>12</visibility>
+          <description>sunny</description>
+        </period>
+        <period time="night">
+          <temperature max="16" min="11" feels_like="13"/>
+          <humidity>85</humidity>
+          <wind speed="5" direction="n"/>
+          <pressure>1016</pressure>
+          <precipitation amount="0" probability="0"/>
+          <uv-index>0</uv-index>
+          <visibility>8</visibility>
+          <description>clear</description>
+        </period>
+      </measurements>
+    </station>
+  </city>
+</weather-data>
