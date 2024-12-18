@@ -1,6 +1,7 @@
 package es.jllopezalvarez.ejemplos.orm.hibernate.programas;
 
 import es.jllopezalvarez.ejemplos.orm.hibernate.entities.City;
+
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
