@@ -3,5 +3,7 @@ package es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.repositories;
 import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.entities.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.List;
+
 public interface StudentRepository extends JpaRepository<Student, Integer> {
 }
