@@ -11,4 +11,12 @@ public interface StudentService {
     Optional<Student> findById(Integer id);
 
     List<Student> findAllPaged(int page, int pageSize);
+
+    List<Student> findByName(String name);
+
+    List<Student> findByNameAndLastName(String firstName, String lastName);
+
+    Long countUsingSql();
+
+    List<Student> findContaningName(String name);
 }

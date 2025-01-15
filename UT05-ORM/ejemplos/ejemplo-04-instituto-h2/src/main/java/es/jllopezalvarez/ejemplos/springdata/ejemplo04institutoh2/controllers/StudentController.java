@@ -38,7 +38,7 @@ public class StudentController {
     public ResponseEntity<Student> getStudentById(@PathVariable("id") Integer id) {
         System.out.println("En getStudentById, id = " + id);
 
-        Optional<Student> student =  studentService.findById(id);
+        Optional<Student> student = studentService.findById(id);
         if (student.isPresent()) {
             return ResponseEntity.ok(student.orElseThrow());
         } else {
@@ -54,9 +54,31 @@ public class StudentController {
 
 
     @GetMapping("/{page}/{pageSize}")
-    public ResponseEntity<List<Student>> findAllPaged(@PathVariable("page") Integer page, @PathVariable("pageSize") Integer pageSize ) {
+    public ResponseEntity<List<Student>> findAllPaged(@PathVariable("page") Integer page, @PathVariable("pageSize") Integer pageSize) {
         return ResponseEntity.ok(studentService.findAllPaged(page, pageSize));
     }
 
 
+    @GetMapping("/search/{name}")
+    public ResponseEntity<List<Student>> findByName(@PathVariable("name") String name) {
+        List<Student> students = studentService.findByName(name);
+        return ResponseEntity.ok(students);
+    }
+
+
+    @GetMapping("/search/{firstName}/{lastName}")
+    public ResponseEntity<List<Student>> findByName(@PathVariable("firstName") String firstName, @PathVariable("lastName") String lastName) {
+        List<Student> students = studentService.findByNameAndLastName(firstName, lastName);
+        return ResponseEntity.ok(students);
+    }
+
+    @GetMapping("/count-using-sql")
+    public ResponseEntity<Long> countUsingSql() {
+        return ResponseEntity.ok(studentService.countUsingSql());
+    }
+
+    @GetMapping("/find-containing-name/{name}")
+    public ResponseEntity<List<Student>> findContainingName(@PathVariable("name") String name) {
+        return ResponseEntity.ok(studentService.findContaningName(name));
+    }
 }

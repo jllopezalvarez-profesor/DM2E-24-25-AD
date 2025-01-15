@@ -36,4 +36,24 @@ public class StudentServiceImpl implements StudentService {
         Page<Student> studentsPage = studentRepository.findAll(pageRequest);
         return studentsPage.toList();
     }
+
+    @Override
+    public List<Student> findByName(String name) {
+        return studentRepository.findStudentsByFirstNameContainingIgnoreCase(name);
+    }
+
+    @Override
+    public List<Student> findByNameAndLastName(String firstName, String lastName) {
+        return studentRepository.findByFirstNameContainingIgnoreCaseAndLastNameContainingIgnoreCaseOrderByStudentIdAsc(firstName, lastName);
+    }
+
+    @Override
+    public Long countUsingSql() {
+        return studentRepository.countStudentsWithSQL();
+    }
+
+    @Override
+    public List<Student> findContaningName(String name) {
+        return studentRepository.findContainingInName(name);
+    }
 }
