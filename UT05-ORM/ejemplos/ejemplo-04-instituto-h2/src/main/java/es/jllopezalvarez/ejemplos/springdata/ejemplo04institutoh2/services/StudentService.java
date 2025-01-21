@@ -1,5 +1,9 @@
 package es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.services;
 
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoClass;
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoInterfaceDefault;
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoInterfaceSpEL;
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoRecord;
 import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.entities.Student;
 
 import java.util.List;
@@ -19,4 +23,15 @@ public interface StudentService {
     Long countUsingSql();
 
     List<Student> findContaningName(String name);
+
+    List<StudentDtoInterfaceSpEL> getAllDtoInterfaceSpEL();
+
+    List<StudentDtoInterfaceDefault> getAllDtoInterfaceDefault();
+
+
+    List<StudentDtoClass> getAllDtoClass();
+
+    List<StudentDtoRecord> getAllDtoRecord();
+
+    List<StudentDtoClass> getAllDtoClassMapped();
 }

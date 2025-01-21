@@ -1,6 +1,10 @@
 package es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.controllers;
 
 
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoClass;
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoInterfaceDefault;
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoInterfaceSpEL;
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoRecord;
 import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.entities.Student;
 import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.services.StudentService;
 import org.springframework.http.ResponseEntity;
@@ -80,5 +84,31 @@ public class StudentController {
     @GetMapping("/find-containing-name/{name}")
     public ResponseEntity<List<Student>> findContainingName(@PathVariable("name") String name) {
         return ResponseEntity.ok(studentService.findContaningName(name));
+    }
+
+    @GetMapping("/get-all-dto-spel")
+    public ResponseEntity<List<StudentDtoInterfaceSpEL>> getAllDtoSpel() {
+        return ResponseEntity.ok(studentService.getAllDtoInterfaceSpEL());
+    }
+
+    @GetMapping("/get-all-dto-default")
+    public ResponseEntity<List<StudentDtoInterfaceDefault>> getAllDtoDefault() {
+        return ResponseEntity.ok(studentService.getAllDtoInterfaceDefault());
+    }
+
+    @GetMapping("/get-all-dto-class")
+    public ResponseEntity<List<StudentDtoClass>> getAllDtoClass() {
+        return ResponseEntity.ok(studentService.getAllDtoClass());
+    }
+
+    @GetMapping("/get-all-dto-record")
+    public ResponseEntity<List<StudentDtoRecord>> getAllDtoRecord() {
+//        StudentDtoRecord student = new StudentDtoRecord("A", "B");
+        return ResponseEntity.ok(studentService.getAllDtoRecord());
+    }
+
+    @GetMapping("/get-all-dto-automapped")
+    public ResponseEntity<List<StudentDtoClass>> getAllDtoAutoMapped() {
+        return ResponseEntity.ok(studentService.getAllDtoClassMapped());
     }
 }
