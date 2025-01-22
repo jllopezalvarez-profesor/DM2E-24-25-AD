@@ -307,3 +307,6 @@ VALUES
 (40, 10),
 (40, 11),
 (40, 12);
+
+
+alter table students alter column student_id restart with 50;

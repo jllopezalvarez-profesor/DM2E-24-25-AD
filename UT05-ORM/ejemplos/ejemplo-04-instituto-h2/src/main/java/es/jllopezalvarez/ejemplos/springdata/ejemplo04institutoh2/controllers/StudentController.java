@@ -1,10 +1,7 @@
 package es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.controllers;
 
 
-import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoClass;
-import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoInterfaceDefault;
-import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoInterfaceSpEL;
-import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.StudentDtoRecord;
+import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.dto.*;
 import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.entities.Student;
 import es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.services.StudentService;
 import org.springframework.http.ResponseEntity;
@@ -111,4 +108,24 @@ public class StudentController {
     public ResponseEntity<List<StudentDtoClass>> getAllDtoAutoMapped() {
         return ResponseEntity.ok(studentService.getAllDtoClassMapped());
     }
+
+    @PostMapping
+    public ResponseEntity<Student> createStudent(@RequestBody CreateStudentDto studentDto) {
+
+        System.out.println("En la creación de estudiante:");
+        System.out.println(studentDto);
+
+        Student createdStudent = studentService.save(studentDto);
+
+        System.out.println("El estudiante creado es:");
+        System.out.println(createdStudent);
+
+
+        return ResponseEntity.created(null).build();
+
+
+    }
+
+
+
 }
