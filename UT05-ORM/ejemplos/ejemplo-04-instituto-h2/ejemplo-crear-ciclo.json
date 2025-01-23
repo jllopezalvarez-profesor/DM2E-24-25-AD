@@ -1,0 +1,66 @@
+{
+  "name": "Administración de Sistemas Informáticos en Red (ASIR)",
+  "totalHours": 2000,
+  "modules": [
+    {
+      "name": "Formación y orientación laboral",
+      "anualHours": 90
+    },
+    {
+      "name": "Fundamentos de hardware",
+      "anualHours": 100
+    },
+    {
+      "name": "Gestión de bases de datos",
+      "anualHours": 200
+    },
+    {
+      "name": "Implantación de sistemas operativos",
+      "anualHours": 280
+    },
+    {
+      "name": "Lenguajes de marcas y sistemas de gestión de información",
+      "anualHours": 140
+    },
+    {
+      "name": "Planificación y administración de redes",
+      "anualHours": 190
+    },
+    {
+      "name": "Administración de sistemas gestores de bases de datos",
+      "anualHours": 60
+    },
+    {
+      "name": "Administración de sistemas operativos",
+      "anualHours": 120
+    },
+    {
+      "name": "Empresa e iniciativa emprendedora",
+      "anualHours": 65
+    },
+    {
+      "name": "Implantación de aplicaciones web",
+      "anualHours": 100
+    },
+    {
+      "name": "Inglés técnico para grado superior",
+      "anualHours": 40
+    },
+    {
+      "name": "Seguridad y alta disponibilidad",
+      "anualHours": 100
+    },
+    {
+      "name": "Servicios de red e internet",
+      "anualHours": 115
+    },
+    {
+      "name": "Proyecto de administración de sistemas informáticos en red",
+      "anualHours": 30
+    },
+    {
+      "name": "Formación en centros de trabajo (FCT)",
+      "anualHours": 370
+    }
+  ]
+}

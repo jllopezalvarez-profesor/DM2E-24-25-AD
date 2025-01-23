@@ -1,7 +1,6 @@
 package es.jllopezalvarez.ejemplos.springdata.ejemplo04institutoh2.entities;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -44,5 +43,25 @@ public class Module {
 
     public Degree getDegree() {
         return degree;
+    }
+
+    public void setModuleId(Integer moduleId) {
+        this.moduleId = moduleId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAnualHours(Integer anualHours) {
+        this.anualHours = anualHours;
+    }
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+
+    public void setDegree(Degree degree) {
+        this.degree = degree;
     }
 }

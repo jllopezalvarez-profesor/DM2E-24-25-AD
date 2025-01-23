@@ -309,4 +309,6 @@ VALUES
 (40, 12);
 
 
-alter table students alter column student_id restart with 50;
+alter table students alter column student_id restart with 100;
+alter table degrees alter column degree_id restart with 100;
+alter table modules alter column module_id restart with 100;
