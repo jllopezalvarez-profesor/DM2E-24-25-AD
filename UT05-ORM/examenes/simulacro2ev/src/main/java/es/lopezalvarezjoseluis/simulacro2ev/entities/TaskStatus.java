@@ -1,10 +1,14 @@
 package es.lopezalvarezjoseluis.simulacro2ev.entities;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Objects;
 
 @Entity
+@Getter
+@Setter
 public class TaskStatus {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,21 +26,5 @@ public class TaskStatus {
     @Override
     public int hashCode() {
         return Objects.hashCode(taskStatusId);
-    }
-
-    public Integer getTaskStatusId() {
-        return taskStatusId;
-    }
-
-    public void setTaskStatusId(Integer taskStatusId) {
-        this.taskStatusId = taskStatusId;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }

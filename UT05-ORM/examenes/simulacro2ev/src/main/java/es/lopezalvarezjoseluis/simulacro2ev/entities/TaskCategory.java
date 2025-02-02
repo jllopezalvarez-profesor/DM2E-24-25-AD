@@ -1,10 +1,14 @@
 package es.lopezalvarezjoseluis.simulacro2ev.entities;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Objects;
 
 @Entity
+@Getter
+@Setter
 public class TaskCategory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,21 +27,5 @@ public class TaskCategory {
     @Override
     public int hashCode() {
         return Objects.hashCode(taskCategoryId);
-    }
-
-    public Integer getTaskCategoryId() {
-        return taskCategoryId;
-    }
-
-    public void setTaskCategoryId(Integer taskCategoryId) {
-        this.taskCategoryId = taskCategoryId;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }

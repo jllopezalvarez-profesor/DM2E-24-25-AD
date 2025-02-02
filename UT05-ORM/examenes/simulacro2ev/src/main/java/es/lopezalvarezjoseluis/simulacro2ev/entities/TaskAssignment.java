@@ -1,11 +1,15 @@
 package es.lopezalvarezjoseluis.simulacro2ev.entities;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
 
 @Entity
+@Getter
+@Setter
 public class TaskAssignment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -41,53 +45,5 @@ public class TaskAssignment {
     @Override
     public int hashCode() {
         return Objects.hashCode(taskAssignmentId);
-    }
-
-    public int getTaskAssignmentId() {
-        return taskAssignmentId;
-    }
-
-    public void setTaskAssignmentId(int taskAssignmentId) {
-        this.taskAssignmentId = taskAssignmentId;
-    }
-
-    public LocalDateTime getAssignmentDatetime() {
-        return assignmentDatetime;
-    }
-
-    public void setAssignmentDatetime(LocalDateTime assignmentDatetime) {
-        this.assignmentDatetime = assignmentDatetime;
-    }
-
-    public LocalDateTime getCompletionDatetime() {
-        return completionDatetime;
-    }
-
-    public void setCompletionDatetime(LocalDateTime completionDatetime) {
-        this.completionDatetime = completionDatetime;
-    }
-
-    public Task getTask() {
-        return task;
-    }
-
-    public void setTask(Task task) {
-        this.task = task;
-    }
-
-    public TaskStatus getTaskStatus() {
-        return taskStatus;
-    }
-
-    public void setTaskStatus(TaskStatus taskStatus) {
-        this.taskStatus = taskStatus;
-    }
-
-    public FamilyMember getFamilyMember() {
-        return familyMember;
-    }
-
-    public void setFamilyMember(FamilyMember familyMember) {
-        this.familyMember = familyMember;
     }
 }

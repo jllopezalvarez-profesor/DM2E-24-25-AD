@@ -1,10 +1,14 @@
 package es.lopezalvarezjoseluis.simulacro2ev.entities;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Objects;
 
 @Entity
+@Getter
+@Setter
 public class FamilyMember {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,29 +28,5 @@ public class FamilyMember {
     @Override
     public int hashCode() {
         return Objects.hashCode(familyMemberId);
-    }
-
-    public Integer getFamilyMemberId() {
-        return familyMemberId;
-    }
-
-    public void setFamilyMemberId(Integer familyMemberId) {
-        this.familyMemberId = familyMemberId;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 }
