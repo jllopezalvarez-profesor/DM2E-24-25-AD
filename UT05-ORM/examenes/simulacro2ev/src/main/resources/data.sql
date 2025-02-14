@@ -46,3 +46,6 @@ INSERT INTO task_assignment (family_member_id, task_id, assignment_datetime, tas
 INSERT INTO task_assignment (family_member_id, task_id, assignment_datetime, task_status_id) VALUES (2, 8, '2024-06-11 17:00:00', 3);
 INSERT INTO task_assignment (family_member_id, task_id, assignment_datetime, task_status_id) VALUES (3, 9, '2024-06-11 18:00:00', 1);
 INSERT INTO task_assignment (family_member_id, task_id, assignment_datetime, task_status_id) VALUES (4, 10, '2024-06-11 19:00:00', 2);
+
+-- Insertar habitaciones
+insert into room(name) values ('Bedroom'), ('Bathroom');

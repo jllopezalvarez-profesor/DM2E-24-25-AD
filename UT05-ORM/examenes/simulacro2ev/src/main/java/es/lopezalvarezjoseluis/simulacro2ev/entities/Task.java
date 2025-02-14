@@ -4,7 +4,10 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -21,6 +24,14 @@ public class Task {
     @ManyToOne
     @JoinColumn(name = "task_category_id", nullable = false)
     private TaskCategory category;
+
+    @ManyToMany
+    @JoinTable(name = "task_room",
+        joinColumns = {@JoinColumn(name = "task_id")},
+        inverseJoinColumns = {@JoinColumn(name = "room_id")}
+    )
+    private Set<Room> rooms;
+
 
     @Override
     public boolean equals(Object o) {
